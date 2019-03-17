@@ -10,7 +10,7 @@ public class Pages
 public WebDriver driver;
 
 @FindBy(name="username")
-public WebElement id;
+public WebElement id;//checked
 
 @FindBy(xpath="//*[@id='login-signin']")
 public WebElement next;
