@@ -15,7 +15,7 @@ public WebElement mail;
 public Mail(WebDriver driver)
 {
 	this.driver=driver;
-	PageFactory.initElements(driver,this);
+	PageFactory.initElements(driver,this);//code is correct
 }
 
 public void clickmail()
